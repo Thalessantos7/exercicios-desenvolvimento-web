@@ -2,3 +2,7 @@ primeiro-estagio/** linguist-detectable=true
 segundo-estagio/** linguist-detectable=true
 node_modules/** linguist-vendored=true
 package-lock.json linguist-vendored=true
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
