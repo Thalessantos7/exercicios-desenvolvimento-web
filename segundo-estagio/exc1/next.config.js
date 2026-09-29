@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   turbopack: {
-    root: '.',
+    root: "C:\\Users\\Thales\\Dev\\html-css-js\\exercicios-desenvolvimento-web\\segundo-estagio\\exc1",
   },
 }
 

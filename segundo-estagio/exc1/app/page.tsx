@@ -10,8 +10,8 @@ export default function Home() {
       />
 
       <Counter/>
-      <Counter/>
-      <Counter/>
+      <Counter initialValue={100}/>
+      <Counter initialValue={200}/>
 
     </div>
   )

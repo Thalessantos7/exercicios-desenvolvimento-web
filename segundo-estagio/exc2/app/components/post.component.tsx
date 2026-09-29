@@ -1,5 +1,6 @@
 "use client"
 
+import { ThumbsDown, ThumbsUp } from "lucide-react";
 import { useState } from "react";
 
 export function Post() {
@@ -23,7 +24,7 @@ export function Post() {
 
             <p className="mb-4 font-medium">Curtidas: {likes}</p>
 
-            <button className={`btn ${curtido ? 'btn-danger' : 'btn-primary'}`} onClick={alternarCurtida}>{curtido ? "Descurtir" : "Curtir"}</button>
+            <button className={`btn ${curtido ? 'btn-danger' : 'btn-primary'}`} onClick={alternarCurtida}>{curtido ? <ThumbsDown/> : <ThumbsUp/>}</button>
         </div>
     )
 }
