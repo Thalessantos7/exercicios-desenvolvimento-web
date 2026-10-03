@@ -1,6 +1,5 @@
-package-lock.json linguist-generated=true
+**/package-lock.json linguist-generated=true
+**/.next/** linguist-generated=true
+**/node_modules/** linguist-generated=true
 yarn.lock linguist-generated=true
 pnpm-lock.yaml linguist-generated=true
-.next/** linguist-generated=true
-build/** linguist-generated=true
-dist/** linguist-generated=true
